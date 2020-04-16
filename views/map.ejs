@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+    <title>Map at a specified location</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="../css/map.css" />
+    
+     
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+  
+  <body id="markers-on-the-map">
+    
+    <div id="map"></div>
+    
+    <div>
+      <form action="/map" method="POST">
+        <input type="text" id="result" name="result">
+        <input type="text"  name="sqft">
+        <button type="submit">Price</button>
+        <label for=""></label>
+
+      </form>
+    </div>
+    <script type="text/javascript" src='../js/map1.js'></script>
+    
+  </body>
+</html>
