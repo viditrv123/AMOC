@@ -19,7 +19,7 @@ const loadCSV=require('./load-csv');
 var result=new Array();
 
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("home");
 });
 
 app.get("/about",(req,res)=>{
